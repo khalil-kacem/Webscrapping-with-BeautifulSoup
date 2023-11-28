@@ -2,11 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 
-
-
-
 site = input("give me a url to search if it contains a mail or phone number : ")
-
 
 emails=[]
 tels=[]
