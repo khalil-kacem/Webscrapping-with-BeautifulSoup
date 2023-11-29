@@ -21,12 +21,6 @@ for j in range(len(m)):
         players_position.append(m[j].get("title"))
 
 
-
-
-
-
-
-
 players=[map(lambda x: [x], players_name),players_position]
 
 players_details = zip_longest(*players, fillvalue='')
